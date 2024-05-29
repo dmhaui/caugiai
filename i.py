@@ -1,6 +1,6 @@
 import requests
 def send_message(message):
-    url = "https://af410cf1493a2f.lhr.life/chat"
+    url = "https://bd5e6aca3032e2.lhr.life/chat"
     data = {'text': message}
     response = requests.post(url, json=data)
     if response.status_code == 200:
